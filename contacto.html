@@ -2,8 +2,8 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Contactanos</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prof. Miguel - Contacto</title>
     <style>
         body {
             background-color: black;
@@ -14,10 +14,14 @@
             padding: 0;
         }
         h1 {
-            margin-top: 20%;
+            margin-top: 5%;
         }
         p {
             margin: 10px 0;
+        }
+        .address {
+            margin: 10px auto;
+            white-space: pre-line;
         }
         a {
             color: white;
@@ -25,20 +29,46 @@
             border: 2px solid white;
             padding: 10px 20px;
             border-radius: 5px;
+            display: inline-block;
+            margin-top: 20px;
         }
         a:hover {
             background-color: white;
             color: black;
+        }
+        iframe {
+            width: 30%;
+            height: 300px;
+            border: none;
+            margin-top: 20px;
+        }
+        .button-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
         }
     </style>
 </head>
 <body>
     <h1>Contáctanos</h1>
     <p><strong>Teléfono:</strong> +52 55 1343 4783</p>
-    <p><strong>Dirección:</strong> Carrillo Puerto 344, General Anaya, Ciudad de México</p>
-    <br> <!-- Línea en blanco -->
-    <br> <!-- Segunda línea en blanco para más separación -->
-    <a href="index.html">Regresar al Inicio</a>
-</body>
+    <p class="address">
+        <strong>Correo Electrónico:</strong>
+        <br>Carrillo Puerto 344, Gral Anaya, Benito Juárez, 03340 Ciudad de México, CDMX <br>
+    </p>
 
+<iframe 
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3764.1719760652304!2d-99.16355432501501!3d19.3617047819026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!        1s0x85d1ffb8a174505f%3A0xb11ce723ea057352!2sBridgeWay%20North%20American%20School!5e0!3m2!1ses-419!2smx!4v1736717479670!5m2!1ses-419!2smx"
+ width="600" 
+ height="450" 
+ style="border:0;" 
+ allowfullscreen="" 
+ loading="lazy" 
+ referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+
+    <div class="button-container">
+        <a href="index.html">Regresar al Inicio</a>
+    </div>
+</body>
 </html>
